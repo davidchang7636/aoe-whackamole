@@ -6,12 +6,12 @@ import time
 serial_port = '/dev/cu.usbmodem2101' #Bluetooth.Incoming.Port usbmodem2101
 baud_rate = 9600
 ser = serial.Serial(serial_port, baud_rate)
-highScore = 10000
+highScore = 3700
 currScore = 0
 
 start = time.time()
 mins = 0
-seconds = 15
+seconds = 2
 
 root = tk.Tk()
 root.title = ("Clock")
